@@ -65,6 +65,45 @@ Query OK, 0 rows affected (0.04 sec)
 
 ## 表记录增加/更新/删除
 
+### 表记录增加
+
+说明：不知道数据表有哪些字段的话，可以使用`DESCRIBE`命令查询。
+
+```sql
+mysql> DESCRIBE user;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| id    | int(8)      | NO   | PRI | NULL    | auto_increment |
+| name  | varchar(20) | NO   |     |         |                |
+| tel   | varchar(16) | NO   |     |         |                |
++-------+-------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+```
+
+示例：向`user`表中插入一条记录。
+
+```sql
+mysql> INSERT INTO `user`(`name`, `tel`) VALUES('Jay', `18612345678`);
+Query OK, 1 row affected (0.02 sec)
+```
+
+```sql
+mysql> SELECT * FROM `user`;
++----+-------+-------------+
+| id | name  | tel         |
++----+-------+-------------+
+|  1 | Jay   | 18612345678 |
++----+-------+-------------+
+1 rows in set (0.00 sec)
+```
+
+
+### 表记录更新
+
+
+### 表记录删除
+
 
 ## 数据库备份/恢复
 
