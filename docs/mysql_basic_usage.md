@@ -67,7 +67,7 @@ Query OK, 0 rows affected (0.04 sec)
 
 ### 表记录增加
 
-说明：不知道数据表有哪些字段的话，可以使用`DESCRIBE`命令查询。
+不知道数据表有哪些字段的话，可以使用`DESCRIBE`命令查询。
 
 ```sql
 mysql> DESCRIBE user;
