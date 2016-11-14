@@ -115,6 +115,14 @@ Rows matched: 1  Changed: 1  Warnings: 0
 
 ## 数据库备份/恢复
 
+### 数据库备份
+
+示例：备份数据库`pdp`。
+
+```bash
+$ mysqldump pdp -uroot -p > php.sql
+Enter password: 
+```
 
 
 
