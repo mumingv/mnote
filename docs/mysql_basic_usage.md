@@ -112,6 +112,13 @@ Rows matched: 1  Changed: 1  Warnings: 0
 
 ### 表记录删除
 
+示例：删除`c15_cd`表中的几条记录。
+
+```sql
+mysql> DELETE FROM `c15_cd` WHERE `id` = 1 OR `id` = 2;
+Query OK, 2 rows affected (0.05 sec)
+```
+
 
 ## 数据库备份/恢复
 
