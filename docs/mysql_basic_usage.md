@@ -104,7 +104,7 @@ mysql> SELECT * FROM `user`;
 示例：更新`user`表中的一条记录。
 
 ```sql
-mysql> UPDATE user SET name = 'jay', tel = '12345678900' WHERE id = '1';
+mysql> UPDATE `user` SET `name` = 'jay', `tel` = '12345678900' WHERE `id` = 1;
 Query OK, 1 row affected (0.00 sec)
 Rows matched: 1  Changed: 1  Warnings: 0
 ```
