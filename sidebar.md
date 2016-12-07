@@ -7,9 +7,15 @@
 ## 目录
 0. [前言](#README)
 
+
 ## MySQL
 - [基本用法](#docs/mysql_basic_usage)
 - [数据表设计](#docs/mysql_table_design)
+
+
+## 其他
+- [资源收集](#docs/other_resource)
+
 
 ## 附录 
 - [源码](https://github.com/mumingv/gitreposity)
