@@ -9,6 +9,7 @@
 
 ## MySQL
 - [基本用法](#docs/mysql_basic_usage)
+- [数据表设计](#docs/mysql_table_design)
 
 ## 附录 
 - [源码](https://github.com/mumingv/gitreposity)
