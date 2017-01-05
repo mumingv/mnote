@@ -13,6 +13,10 @@
 - [数据表设计](#docs/mysql_table_design)
 
 
+## Redis
+- [基本用法](#docs/redis_basic_usage)
+
+
 ## 其他
 - [资源收集](#docs/other_resource)
 
