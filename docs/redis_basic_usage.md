@@ -42,6 +42,58 @@ $ redis-cli -p 5160 shutdown
 ```
 
 
+## 数据结构 string
+
+### 增加 set mset
+
+语法：`SET key value`
+
+示例：
+
+```bash
+$ redis-cli 
+127.0.0.1:6379> set foo bar
+OK
+127.0.0.1:6379> get foo
+"bar"
+```
+
+语法：`MSET key value [key value ...]`
+
+示例：
+
+```bash
+127.0.0.1:6379> mset apple red banana yellow
+OK
+127.0.0.1:6379> mget apple banana
+1) "red"
+2) "yellow"
+```
+
+
+### 删除 del
+
+
+### 修改 set mset (与增加操作相同，实为覆盖)
+
+
+### 查询 get mget
+
+
+
+
+
+## 数据结构 hash
+
+
+
+## 数据结构 list
+
+
+## 数据结构 set
+
+
+## 数据结构 sorted set
 
 
 
