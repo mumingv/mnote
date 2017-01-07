@@ -16,6 +16,7 @@
 ## Redis
 - [基本用法](#docs/redis_basic_usage)
 - [参考资料](#docs/redis_reference)
+- [FAQ](#docs/redis_faq)
 
 
 ## 其他
