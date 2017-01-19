@@ -1,6 +1,6 @@
 # 基本用法
 
-## 数据库安装
+## 数据库安装 (未完成)
 
 ### 使用yum安装mysql5.5
 
@@ -51,6 +51,17 @@ $ sudo service mysqld status
 
 ## 数据库登陆
 
+```
+$ mysql -uroot -p
+Enter password: 
+```
+
+<font color="red">重要：务必加-p参数，否则会提示下面的错误。</font>
+
+```
+$ mysql -uroot
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+```
 
 
 ## 数据库创建/删除
