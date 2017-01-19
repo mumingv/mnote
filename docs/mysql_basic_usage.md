@@ -1,5 +1,58 @@
 # 基本用法
 
+## 数据库安装
+
+### 使用yum安装mysql5.5
+
+1.安装repo源
+```
+# yum install http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+```
+
+2.配置repo到mysql5.5版本
+
+```
+# vim /etc/yum.repos.d/mysql-community.repo
+# yum makecache
+```
+
+3.安装mysql
+
+```
+# yum install mysql-community-server
+```
+
+
+
+
+
+## 数据库启动/停止/状态查询
+
+### 数据库启动
+
+```bash
+$ sudo service mysqld start
+```
+
+
+### 数据库停止
+
+```bash
+$ sudo service mysqld stop
+```
+
+
+### 数据库状态查询
+
+```bash
+$ sudo service mysqld status
+```
+
+
+## 数据库登陆
+
+
+
 ## 数据库创建/删除
 
 ### 数据库创建
