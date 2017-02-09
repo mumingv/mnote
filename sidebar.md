@@ -7,6 +7,7 @@
 ## 目录
 - [前言](#README)
 - [Git](#docs/git)
+- [Chrome](#docs/chrome)
 
 
 
