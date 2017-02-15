@@ -1,5 +1,100 @@
 # Git
 
+## 分支 branch
+
+### 查看分支
+
+#### 示例：查看项目的所有分支名称
+
+```
+$ git branch
+* master
+```
+
+标记星号(`*`)的分支为当前的工作分支。
+
+
+### 创建分支
+
+#### 示例：创建开发分支dev
+
+```
+$ git branch dev
+$ git branch
+  dev
+* master
+```
+
+
+### 切换分支
+
+#### 示例：切换到已经创建的dev分支
+
+```
+$ git checkout dev
+Switched to branch 'dev'
+```
+
+
+#### 示例：创建并切换到新的dev分支
+
+```
+$ git checkout -b dev
+Switched to a new branch 'dev'
+```
+
+如果分支已经存在，则会提示如下错误：
+```
+$ git checkout -b dev
+fatal: A branch named 'dev' already exists.
+```
+
+
+### 提交分支代码
+
+#### 示例：提交代码到dev分支
+
+```
+$ git add .
+$ git commit -m 'add index.php'
+$ git push -u origin dev
+```
+
+
+### 删除分支
+
+<font color="red">删除分支包括删除本地分支和远程分支，删除本地分支或者远程分支均不会对另一个有影响。</font>
+
+### 示例：删除本地分支dev
+
+```
+$ git branch -d dev
+```
+
+### 示例：删除远程分支dev
+
+```
+$ git push origin :dev
+```
+
+
+### 同步代码
+
+#### 示例：将主干代码同步到dev分支
+
+```
+$ git checkout dev
+$ git merge master
+```
+
+#### 示例：将dev分支代码同步到主干
+
+```
+$ git checkout master
+$ git merge dev
+```
+
+
 ## FAQ
 
 ### Q: 如何撤销已经提交的commit？
