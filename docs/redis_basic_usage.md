@@ -138,11 +138,13 @@ Type: "help @<group>" to get a list of commands in <group>
 
 ## 数据结构 string
 
-### 增加 set mset
+### 增加 set
 
-语法：`SET key value`
+#### 语法：
 
-示例：
+`SET key value`
+
+#### 示例：
 
 ```bash
 $ redis-cli 
@@ -152,9 +154,14 @@ OK
 "bar"
 ```
 
-语法：`MSET key value [key value ...]`
 
-示例：
+### 增加 mset
+
+#### 语法：
+
+`MSET key value [key value ...]`
+
+#### 示例：
 
 ```bash
 127.0.0.1:6379> mset apple red banana yellow
@@ -174,11 +181,7 @@ OK
 ### 查询 get mget
 
 
-
-
-
 ## 数据结构 hash
-
 
 
 ## 数据结构 list
@@ -191,19 +194,113 @@ OK
 
 ### 增加 zadd
 
-语法：``
+#### 语法：
 
-示例：
+`zadd key score value [score value [...]]`
+
+#### 说明：
+
+score: float
+
+#### 示例：
 
 ```bash
+127.0.0.1:6379> zadd foo 2.0 bar1 3.0 bar2
+(integer) 2
 ```
 
-语法：``
 
-示例：
+### 删除 zrem/zdelete
+
+#### 语法：
+
+`zrem key value`
+
+
+#### 示例：
 
 ```bash
+127.0.0.1:6379> zrem foo bar1
+(integer) 1
 ```
+
+
+#### 示例：redis2.8.19版本不支持zdelete命令
+
+```bash
+127.0.0.1:6379> zdelete foo bar2
+(error) ERR unknown command 'zdelete'
+```
+
+
+### 查询 zrange
+
+#### 
+
+语法：`zrange key start stop [withscores]`
+
+
+#### 说明：
+
+该方法只能查询到value，不能查询score。
+
+start: int, 起始位置, 前编号从0开始，后编号从-1开始, 可以取值-inf
+
+stop: int, 结束为止，前编号从0开始，后编号从-1开始, 可以取值+inf
+
+
+#### 示例：
+
+```bash
+127.0.0.1:6379> zrange foo 0 -1
+1) "bar1"
+2) "bar2"
+```
+
+
+### 查询 zrevrange
+
+#### 
+
+语法：`zrevrange key start stop [withscores]`
+
+
+#### 说明：
+
+<font color="red">
+zrevrange是zrange的倒序版本。
+</font>
+
+该方法只能查询到value，不能查询score。
+
+start: int, 起始位置, 前编号从0开始，后编号从-1开始, 可以取值-inf
+
+stop: int, 结束为止，前编号从0开始，后编号从-1开始, 可以取值+inf
+
+
+#### 示例：
+
+```bash
+127.0.0.1:6379> zrevrange foo 0 -1
+1) "bar2"
+2) "bar1"
+```
+
+
+### 查询 zscore
+
+#### 
+
+语法：`zscore key value`
+
+
+#### 示例：查询'bar2'这个value对应的score
+
+```bash
+127.0.0.1:6379> zscore foo bar2
+"3"
+```
+
 
 
 
