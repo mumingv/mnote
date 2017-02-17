@@ -1,6 +1,6 @@
 # 基本用法
 
-## 安装、启动和退出
+## 安装
 
 ### 使用yum安装
 
@@ -16,6 +16,8 @@
 |客户端可执行文件   |/usr/bin/redis-cli                     |
 |配置文件           |/etc/redis.conf                        |
 
+
+## 启动和关闭
 
 ### 启动redis并且在后台运行
 
@@ -43,17 +45,94 @@ tcp6       0      0 :::5160                 :::*                    LISTEN      
 ```
 
 
-### 退出redis
+### 关闭redis
 
 ```bash
 $ redis-cli shutdown
 ```
 
 
-### 退出redis(指定端口号)
+### 关闭redis(指定端口号)
 
 ```bash
 $ redis-cli -p 5160 shutdown
+```
+
+
+## 登陆和退出
+
+### 登陆本机的redis默认端口
+
+```
+$ redis-cli 
+127.0.0.1:6379> 
+```
+
+
+### 登陆指定机器特定端口的redis
+
+```
+$ redis-cli -h 127.0.0.1 -p 6379
+127.0.0.1:6379>
+```
+
+
+### 退出
+
+```
+127.0.0.1:6379> quit
+$ 
+```
+
+说明：使用快捷键<Ctrl + D>的效果也是一样的。
+
+
+## 获取帮助
+
+### 查询可能用到的帮助命令
+
+```
+127.0.0.1:6379> help
+redis-cli 2.8.19
+Type: "help @<group>" to get a list of commands in <group>
+      "help <command>" for help on <command>
+      "help <tab>" to get a list of possible help topics
+      "quit" to exit
+```
+
+说明：使用问号的效果也是一样的。
+
+```
+127.0.0.1:6379> ?
+redis-cli 2.8.19
+Type: "help @<group>" to get a list of commands in <group>
+      "help <command>" for help on <command>
+      "help <tab>" to get a list of possible help topics
+      "quit" to exit
+```
+
+
+### 查询某种类别当中的所有命令
+
+```
+127.0.0.1:6379> help @sorted_set
+
+  ZADD key score member [score member ...]
+  summary: Add one or more members to a sorted set, or update its score if it already exists
+  since: 1.2.0
+
+  ...
+```
+
+### 查询具体的命令
+
+```
+127.0.0.1:6379> help zadd
+
+  ZADD key score member [score member ...]
+  summary: Add one or more members to a sorted set, or update its score if it already exists
+  since: 1.2.0
+  group: sorted_set
 ```
 
 
@@ -110,6 +189,21 @@ OK
 
 ## 数据结构 sorted set
 
+### 增加 zadd
+
+语法：``
+
+示例：
+
+```bash
+```
+
+语法：``
+
+示例：
+
+```bash
+```
 
 
 

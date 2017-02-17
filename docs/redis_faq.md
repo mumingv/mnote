@@ -43,3 +43,22 @@ $ nohup redis-server /etc/redis.conf &
 ```
 
 
+## redis读取中文字符显示乱码？
+
+```
+127.0.0.1:6379> set foo "我们"
+OK
+127.0.0.1:6379> get foo
+"\xe6\x88\x91\xe4\xbb\xac"
+```
+
+### 解决方法
+
+redis存储的数据是OK的，仅仅是显示的问题而已。
+
+```
+$ redis-cli --raw
+127.0.0.1:6379> get foo
+我们
+```
+
