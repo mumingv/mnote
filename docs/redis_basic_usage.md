@@ -136,7 +136,26 @@ Type: "help @<group>" to get a list of commands in <group>
 ```
 
 
+## 数据结构 keys (generic)
+
+### 命令汇总
+
+|类别       |命令           |含义                               |
+|-----------|---------------|-----------------------------------|
+|删除       |del            |删除一个或多个key                  |
+|查询       |exists         |查询key是否存在                    |
+|           |type           |查询key的类型                      |
+
+
 ## 数据结构 string
+
+|类别       |命令           |含义                               |
+|-----------|---------------|-----------------------------------|
+|增加       |set            |设置key的value值(字符串)           |
+|           |mset           |设置一个或多个key的value值(字符串) |
+|查询       |get            |查询key的value值(字符串)           |
+|           |mget           |查询一个或多个key的value值         |
+|           |strlen         |查询一个key的value值的长度         |
 
 ### 增加 set
 
@@ -183,6 +202,23 @@ OK
 
 ## 数据结构 hash
 
+数据格式：key field value [field value ...]
+
+### 命令汇总
+
+|类别       |命令           |含义                                 |
+|-----------|---------------|-------------------------------------|
+|增加       |hset           |设置hash里某一个field的value值       |
+|           |hmset          |设置hash里某一个或多个field的value值 |
+|删除       |hdel           |删除hash里某一个或多个field          |
+|查询       |hkeys          |查询hash里所有field的名称            |
+|           |hget           |查询hash里某一个field的value值       |
+|           |hmget          |查询hash里某一个或多个field的value值 |
+|           |hgetall        |查询hash里所有的field名称和value值   |
+|           |hlen           |查询hash里所有field的数量            |
+|           |hvals          |查询hash里所有value的值              |
+|           |hexists        |查询hash里是否存在指定的field        |
+
 
 ## 数据结构 list
 
@@ -191,6 +227,19 @@ OK
 
 
 ## 数据结构 sorted set
+
+数据格式：key score member [score member ...]
+
+|类别       |命令               |含义                                   |
+|-----------|-------------------|---------------------------------------|
+|增加       |zadd               |设置zset里某一个或多个member(带score)  |
+|删除       |zrem               |删除zset里某一个或多个member(指定member值删除)|
+|查询       |zcard              |查询zset里member的数量                 |
+|           |zcount             |查询zset里某个分数范围内member的数量   |
+|           |zrange             |查询zset里某个下标范围内的member       |
+|           |zrevrange          |查询zset里某个下标范围内的member(倒序) |
+|           |zrangebyscore      |查询zset里某个分数范围内的member       |
+|           |zrevrangebyscore   |查询zset里某个分数范围内的member(倒序) |
 
 ### 增加 zadd
 
