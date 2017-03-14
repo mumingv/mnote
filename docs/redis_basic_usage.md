@@ -143,8 +143,25 @@ Type: "help @<group>" to get a list of commands in <group>
 |类别       |命令           |含义                               |
 |-----------|---------------|-----------------------------------|
 |删除       |del            |删除一个或多个key                  |
-|查询       |exists         |查询key是否存在                    |
+|查询       |keys           |使用正则表达式查询key的名称        |
+|           |exists         |查询key是否存在                    |
 |           |type           |查询key的类型                      |
+
+### 查询 keys
+
+#### 语法
+
+`KEYS pattern`
+
+
+#### 示例：查询所有key的名称
+
+```
+127.0.0.1:6379> KEYS *
+foo2
+foo1
+```
+
 
 
 ## 数据结构 string
