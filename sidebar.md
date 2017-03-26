@@ -9,14 +9,17 @@
 - [Git](#docs/git)
 - [Github](#docs/github)
 - [Chrome](#docs/chrome)
+- [参考资料](#docs/reference)
 
 
 ## MySQL
 - [基本用法](#docs/mysql_basic_usage)
 - [数据表设计](#docs/mysql_table_design)
+- [参考资料](#docs/mysql_reference)
 
 
 ## SQLite
+- [参考资料](#docs/sqlite_reference)
 
 
 ## Redis
