@@ -12,6 +12,9 @@
 - [参考资料](#docs/reference)
 
 
+## Nginx
+- [基本用法](#docs/nginx_basic_usage)
+
 ## MySQL
 - [基本用法](#docs/mysql_basic_usage)
 - [数据表设计](#docs/mysql_table_design)
