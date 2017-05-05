@@ -64,7 +64,7 @@ ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: N
 ```
 
 
-## 数据库创建/删除
+## 数据库创建/删除/查询
 
 ### 数据库创建
 
@@ -95,6 +95,30 @@ mysql> SHOW CREATE DATABASE `crashcourse`;
 ```sql
 mysql> DROP DATABASE `pdp`;
 Query OK, 0 rows affected (0.04 sec)
+```
+
+
+### 数据库查询
+
+示例：查询所有的数据库
+
+```sql
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| crashcourse        |
+| imooc_mucms        |
+| imooc_o2o          |
+| imooc_singcms      |
+| mysql              |
+| pdp                |
+| pdp_2              |
+| performance_schema |
+| sys                |
++--------------------+
+10 rows in set (0.07 sec)
 ```
 
 
