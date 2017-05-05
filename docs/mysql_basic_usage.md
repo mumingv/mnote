@@ -49,7 +49,11 @@ $ sudo service mysqld status
 ```
 
 
-## 数据库登陆
+## 数据库登陆/使用
+
+### 数据库登陆
+
+示例：
 
 ```
 $ mysql -uroot -p
@@ -62,6 +66,18 @@ Enter password:
 $ mysql -uroot
 ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
 ```
+
+
+### 数据库使用
+
+示例：
+
+```sql
+mysql> USE duer_news;
+Database changed
+```
+
+<font color="red">重要：在对数据库进行操作之前，必须先使用USE命令选中该数据库。</font>
 
 
 ## 数据库创建/删除/查询
