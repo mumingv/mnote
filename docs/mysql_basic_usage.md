@@ -236,8 +236,13 @@ Enter password:
 ```
 
 
+### 数据库恢复
 
+示例：恢复数据库`pdp`（数据库不存在需要先创建然后使用）
 
-
-
+```bash
+mysql> create database `pdp`;
+mysql> use pdp;
+mysql> source /home/work/pdp.sql;
+```
 
