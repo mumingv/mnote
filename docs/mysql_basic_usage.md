@@ -167,7 +167,7 @@ Query OK, 0 rows affected (0.04 sec)
 ```
 
 
-## 表记录增加/更新/删除
+## 表记录增加/查询/更新/删除
 
 ### 表记录增加
 
@@ -203,6 +203,21 @@ mysql> SELECT * FROM `user`;
 ```
 
 
+### 表记录查询(R)
+
+示例：查询表中记录的数量
+
+```sql
+mysql> SELECT COUNT(*) FROM `duer_case`;
++----------+
+| COUNT(*) |
++----------+
+|    12681 |
++----------+
+1 row in set (0.01 sec)
+```
+
+
 ### 表记录更新
 
 示例：更新`user`表中的一条记录。
@@ -228,7 +243,13 @@ Query OK, 2 rows affected (0.05 sec)
 
 ### 数据库备份
 
-示例：备份数据库`pdp`。
+示例：备份所有数据库
+
+```bash
+$ mysqldump --all-databases -uroot -p > all_db.sql
+```
+
+示例：备份单个数据库`pdp`
 
 ```bash
 $ mysqldump pdp -uroot -p > php.sql
@@ -237,6 +258,12 @@ Enter password:
 
 
 ### 数据库恢复
+
+示例：恢复所有数据库
+
+```bash
+mysql> source /home/work/all_db.sql;
+```
 
 示例：恢复数据库`pdp`（数据库不存在需要先创建然后使用）
 
