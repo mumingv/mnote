@@ -10,6 +10,7 @@
 - [Github](#docs/github)
 - [Chrome](#docs/chrome)
 - [参考资料](#docs/reference)
+- [FAQ](#docs/faq)
 
 
 ## Nginx
