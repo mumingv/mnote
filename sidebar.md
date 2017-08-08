@@ -13,8 +13,13 @@
 - [FAQ](#docs/faq)
 
 
+## Mac
+- [常用软件](#docs/mac_software)
+
 ## Nginx
 - [基本用法](#docs/nginx_basic_usage)
+- [参考资料](#docs/nginx_reference)
+
 
 ## MySQL
 - [基本用法](#docs/mysql_basic_usage)
