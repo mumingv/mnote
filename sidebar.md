@@ -12,9 +12,13 @@
 - [参考资料](#docs/reference)
 - [FAQ](#docs/faq)
 
+## Linux软件
 
-## Mac
+
+## Mac软件
 - [常用软件](#docs/mac_software)
+- [专题笔记](#docs/mac_topic)
+
 
 ## Nginx
 - [基本用法](#docs/nginx_basic_usage)

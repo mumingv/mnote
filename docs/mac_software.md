@@ -11,11 +11,79 @@ Homebrew是Mac系统的软件包管理工具。使用brew安装的软件都在`/
 
 官网地址：https://brew.sh/index_zh-cn.html
 
+[Homebrew总结](http://www.jianshu.com/p/8ad7056b243f)
+
+
+### 常用命令
+
+```
+brew install xxx // 安装软件
+brew uninstall xxx // 卸载软件
+brew search // 查找能够安装的软件
+brew list // 查看已安装的软件
+brew update  // 升级brew自身
+brew upgrade xxx  // 升级软件 
+brew options xxx  // 查看安装选项
+brew unlink xxx  // 删除命令快捷方式（多版本时切换版本使用）
+brew link xxx  // 增加命令快捷方式（多版本时切换版本使用）
+brew tap homebrew/homebrew-php // 安装软件源
+brew untap homebrew/homebrew-php // 删除软件源
+```
+
 
 ### 示例
 
 ```bash
 $ brew install wget
+```
+
+
+## Apache
+
+### 安装
+
+Mac自带apache，这里不再另行安装。
+
+
+### 常用命令
+
+```
+sudo apachectl start  // 启动
+sudo apachectl restart  // 重启
+sudo apachectl stop  // 关闭
+```
+
+
+### FAQ
+
+#### Q：如何通过 http://localhost/ 访问Sites目录，而不是通过 http://localhost/~muming/ 访问？
+
+修改配置文件
+
+```
+sudo /etc/apache2/httpd.conf
+```
+
+增加如下配置
+
+```
+DocumentRoot /Users/muming/Sites
+<Directory /Users/muming/Sites>
+    Options Indexes MultiViews
+    # apache 2.2
+    # AllowOverride All
+    # Order allow,deny
+    # Allow from 127.0.0.1
+
+    # apache 2.4
+    Require local
+</Directory>
+```
+
+重启apache生效
+
+```
+sudo apachectl restart
 ```
 
 
