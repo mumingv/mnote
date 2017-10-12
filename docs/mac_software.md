@@ -1,5 +1,25 @@
 # 软件列表
 
+## 软件列表
+
+### 设计
+
+###### 
+
+|名称		|说明		|
+|-----------|-----------|
+|Sketch		|矢量绘图		|
+
+
+### 调试
+
+###### 
+
+|名称		|说明		|
+|-----------|-----------|
+|Charles	|抓包工具		|
+
+
 ## Homebrew
 
 ### 功能
@@ -85,6 +105,16 @@ DocumentRoot /Users/muming/Sites
 ```
 sudo apachectl restart
 ```
+
+
+## Charles
+
+### 安装
+
+
+### 参考资料
+
+安装参考：http://www.jianshu.com/p/1c1023036a75
 
 
 ## MongoDB
