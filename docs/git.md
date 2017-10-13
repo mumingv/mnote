@@ -257,6 +257,7 @@ git push -u origin master
 ```
 git remote add upstream ssh://g@gitlab.baidu.com:8022/wuxing02/enrich.git
 git pull upstream new-case
+git push origin new-case
 ```
 
 参考：[https://segmentfault.com/q/1010000002590371](https://segmentfault.com/q/1010000002590371)。
