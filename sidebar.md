@@ -22,6 +22,7 @@
 
 ## Nginx
 - [基本用法](#docs/nginx_basic_usage)
+- [FAQ](#docs/nginx_faq)
 - [参考资料](#docs/nginx_reference)
 
 

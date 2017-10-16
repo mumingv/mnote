@@ -123,7 +123,7 @@ brew services start mysql
 
 ### 登陆
 
-默认root用户没有密码，直接登陆。
+默认root用户没有密码，直接登陆。如果存在密码，则与阿里云相同（Mysql..6.）。
 
 ```
 mysql -uroot
