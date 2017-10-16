@@ -262,3 +262,27 @@ git push origin new-case
 
 参考：[https://segmentfault.com/q/1010000002590371](https://segmentfault.com/q/1010000002590371)。
 
+
+### Q: git pull时代码冲突如何处理？
+
+错误提示：
+
+```
+$ git pull
+Please wait a moment...
+error: Your local changes to the following files would be overwritten by merge:
+        models/service/data/MultiQuery.php
+        models/service/data/Query.php
+        models/service/page/QueryList.php
+Please, commit your changes or stash them before you can merge.
+Aborting
+```
+
+解决方法：
+
+```
+$ git stash
+$ git pull
+$ git stash pop
+```
+
