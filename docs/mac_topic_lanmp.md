@@ -18,6 +18,29 @@ nginx使用的配置文件目录如下。
 ```
 
 
+### 常用操作
+
+#### 启动
+
+```
+# nginx
+```
+
+
+#### 退出
+
+```
+$ nginx -s quit
+```
+
+
+#### 查看状态
+
+```
+$ lsof -Pni4 | grep nginx
+```
+
+
 ## PHP
 
 ### 安装php软件源
@@ -90,6 +113,33 @@ $ ls -1 /usr/local/etc/php
 5.6
 7.0
 7.2
+```
+
+
+### 常用操作
+
+#### 启动
+
+```
+# php-fpm -D
+```
+
+
+#### 退出
+
+```
+$ killall php-fpm
+```
+
+
+#### 查看状态
+
+```
+$ lsof -Pni4 | grep php-fpm
+php-fpm   4909 muming    7u  IPv4 0x42f424f650baa87f      0t0  TCP 127.0.0.1:9000 (LISTEN)
+php-fpm   4910 muming    0u  IPv4 0x42f424f650baa87f      0t0  TCP 127.0.0.1:9000 (LISTEN)
+php-fpm   4911 muming    0u  IPv4 0x42f424f650baa87f      0t0  TCP 127.0.0.1:9000 (LISTEN)
+php-fpm   4912 muming    0u  IPv4 0x42f424f650baa87f      0t0  TCP 127.0.0.1:9000 (LISTEN)
 ```
 
 
