@@ -7,3 +7,6 @@
 ```
 $ ./.jumbo/bin/mysqld_safe --defaults-extra-file=/home/work/data/mysql_8307/my.cnf  --datadir=/home/work/data/mysql_8307/data &
 ```
+
+配置文件参考：[my.cnf](http://localhost/mnote/backup/mysql/my.cnf/my.cnf.enrich)。
+
