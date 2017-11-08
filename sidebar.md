@@ -18,6 +18,7 @@
 ## Mac软件
 - [常用软件](#docs/mac_software)
 - [专题笔记](#docs/mac_topic)
+- [FAQ](#docs/mac_faq)
 
 
 ## Nginx
