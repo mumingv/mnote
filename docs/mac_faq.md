@@ -8,3 +8,20 @@
 $ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 ```
 
+
+## MacOS升级后无法使用git？
+
+提示如下错误：
+
+```
+$ git status
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+```
+
+解决方法：执行如下命令并选择安装xcode。
+
+```
+$ xcode-select --install
+```
+
+

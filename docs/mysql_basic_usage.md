@@ -49,6 +49,21 @@ $ sudo service mysqld status
 ```
 
 
+## 数据库授权
+
+使用root登录数据库执行命令进行授权：
+
+```
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'10.110.199.140' IDENTIFIED BY '123456' WITH GRANT OPTION;
+```
+
+在'10.110.199.140'上执行命令进行登录：
+
+```
+$ mysql -h10.110.199.140 -P3310 -uroot -p123456
+```
+
+
 ## 数据库登陆/使用
 
 ### 数据库登陆

@@ -24,3 +24,11 @@
 ## 相关软件
 
 PicPick - 图片编辑器
+
+
+## Mac软件站点
+
+[xclient](http://xclient.info/)
+
+[macbed](http://www.macbed.com/)
+
