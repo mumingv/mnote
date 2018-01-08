@@ -9,6 +9,9 @@
 |名称		|说明		|
 |-----------|-----------|
 |Sketch		|矢量绘图		|
+|MindManager|思维导图		|
+|iThoughtsX |思维导图		|
+|EdrawMax	|流程图		|
 
 
 ### 调试
@@ -18,6 +21,8 @@
 |名称		|说明		|
 |-----------|-----------|
 |Charles	|抓包工具		|
+|Fiddler	|抓包工具		|
+|Whistle	|抓包工具		|
 
 
 ## Homebrew
@@ -115,6 +120,19 @@ sudo apachectl restart
 ### 参考资料
 
 安装参考：http://www.jianshu.com/p/1c1023036a75
+
+
+## Fiddler
+
+### 参考资料
+
+博客：https://imququ.com/post/use-fiddler-on-macos.html
+
+## Whistle
+
+### 参考资料
+
+官方网站：https://github.com/avwo/whistle
 
 
 ## MongoDB

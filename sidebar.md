@@ -21,6 +21,10 @@
 - [FAQ](#docs/mac_faq)
 
 
+## Windows软件
+- [常用软件](#docs/windows_software)
+
+
 ## Nginx
 - [基本用法](#docs/nginx_basic_usage)
 - [参考资料](#docs/nginx_reference)
@@ -46,6 +50,11 @@
 - [基本用法](#docs/redis_basic_usage)
 - [参考资料](#docs/redis_reference)
 - [FAQ](#docs/redis_faq)
+
+
+## 面试
+- [PHP](#docs/interview_php)
+- [算法](#docs/interview_aligorithm)
 
 
 ## 其他
