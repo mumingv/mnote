@@ -14,6 +14,15 @@
 |EdrawMax	|流程图		|
 
 
+### 开发
+
+###### 
+
+|名称		|说明		|
+|-----------|-----------|
+|CheatSheet	|快捷键		|
+
+
 ### 调试
 
 ###### 
@@ -122,17 +131,16 @@ sudo apachectl restart
 安装参考：http://www.jianshu.com/p/1c1023036a75
 
 
+## CheatSheet
+
+快捷键：长按`Command`键。
+
+
 ## Fiddler
 
 ### 参考资料
 
 博客：https://imququ.com/post/use-fiddler-on-macos.html
-
-## Whistle
-
-### 参考资料
-
-官方网站：https://github.com/avwo/whistle
 
 
 ## MongoDB
@@ -166,4 +174,10 @@ $ mongod --dbpath=/usr/local/Cellar/mongodb/data/db --rest
 
 在页面中输入`http://localhost:28017`查看MongoDB状态。
 
+
+## Whistle
+
+### 参考资料
+
+官方网站：https://github.com/avwo/whistle
 
