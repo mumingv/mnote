@@ -177,6 +177,25 @@ $ mongod --dbpath=/usr/local/Cellar/mongodb/data/db --rest
 
 ## Whistle
 
+### 使用方法（以抓取网站访问数据包为例）
+
+在Mac命令行启动Whistle：
+
+```
+$ w2 start
+```
+
+使用Chrome浏览器的SwitchyOmega插件，选择代理whistle，代理配置如下：
+
+[![whistle代理](images/whistle_proxy.jpg)](images/whistle_proxy.jpg)
+
+在浏览器打开Whistle，打开待调试页面进行操作，即可在如下页面中看到交互报文信息。
+
+```
+http://127.0.0.1:8899/#network
+```
+
+
 ### 参考资料
 
 官方网站：https://github.com/avwo/whistle
