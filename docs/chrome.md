@@ -1,8 +1,12 @@
 # Chrome
 
-## 扩展程序
+## JSONView
 
-### Referer Control
+
+## Postman
+
+
+## Referer Control
 
 该插件用于控制http请求头部的Referer字段。
 
@@ -20,12 +24,36 @@ referer setting (Custom): http://t11.baidu.com
 ```
 
 
-### JSONView
+## SwitchyOmega
+
+###### 
+
+代理服务器设置工具。
+
+### 
+
+#### 示例：设置whistle代理（情景模式：代理服务器）
+
+|代理协议		|代理服务器 		|代理端口			|
+|-----------|---------------|---------------|
+|HTTP 		|127.0.0.1		|8899			|
 
 
-## 应用
+#### 示例：设置pac代理（情景模式：PAC情景模式）
 
-### Postman
+PAC网址：http://pac.internal.baidu.com/bdnew.pac
+
+
+#### 示例：设置自动切换代理模式（情景模式：自动切换模式）
+
+设置切换规则即可，如：某些域名使用whistle代理，某些域名使用pac代理，某些域名使用直连方式（不使用代理）等等。
+
+
+## Whistle
+
+配合Whistle抓包工具使用，提供代理自动设置功能，在不知道怎么配置代理的场景下使用。
+
+知道如何配置代理的话，使用SwitchyOmega即可。
 
 
 ## FAQ
