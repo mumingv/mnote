@@ -12,6 +12,7 @@
 |MindManager|思维导图		|
 |iThoughtsX |思维导图		|
 |EdrawMax	|流程图		|
+|Axure RP	|原型设计		|
 
 
 ### 开发
