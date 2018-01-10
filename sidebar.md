@@ -31,13 +31,6 @@
 - [FAQ](#docs/nginx_faq)
 
 
-## MySQL
-- [基本用法](#docs/mysql_basic_usage)
-- [数据表设计](#docs/mysql_table_design)
-- [参考资料](#docs/mysql_reference)
-- [FAQ](#docs/mysql_faq)
-
-
 ## MongoDB
 - [基本用法](#docs/mongodb_basic_usage)
 - [参考资料](#docs/mongodb_reference)
