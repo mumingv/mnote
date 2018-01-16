@@ -11,6 +11,10 @@
 
 ## 技术问答
 
+[StackOverflow (https://stackoverflow.com/)](https://stackoverflow.com/) (账号: email_yin@)
+
+[SegmentFault（https://segmentfault.com/）](https://segmentfault.com/)
+
 [Quora (https://www.quora.com/)](https://www.quora.com/)
 
 [帮酷问答（https://www.helplib.com/)](https://www.helplib.com/)
