@@ -43,9 +43,10 @@ PicPick - 图片编辑器
 
 [https://imququ.com/](https://imququ.com/)
 
+
 #### 其他
 
 [酷壳（https://coolshell.cn/）](https://coolshell.cn/)
 
-
+[阮一峰（http://www.ruanyifeng.com/blog/）](http://www.ruanyifeng.com/blog/)
 
