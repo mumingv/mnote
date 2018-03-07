@@ -35,6 +35,15 @@
 |Whistle	|抓包工具		|
 
 
+### 其他
+
+###### 
+
+|名称		|说明		|
+|-----------|-----------|
+|CleanMyMac	|软件卸载		|
+
+
 ## Homebrew
 
 ### 功能
@@ -135,6 +144,11 @@ sudo apachectl restart
 ## CheatSheet
 
 快捷键：长按`Command`键。
+
+
+## EdrawMax
+
+官方网站：http://www.edrawsoft.cn/
 
 
 ## Fiddler
