@@ -98,6 +98,20 @@ server {
 ```
 
 
+### 支持rest风格
+
+```
+    location / {
+        root /home/users/yinjie05/baidu/work/dumi-speaker/odp_oss/webroot;
+        index index.php;
+        fastcgi_pass    $php_upstream;
+        include         fastcgi.conf;
+        rewrite ^(/[^\?]*)?((\?.*)?)$ /oss/index.php/main$1$2 break;
+    }
+```
+
+
+
 
 
 
