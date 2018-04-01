@@ -9,6 +9,7 @@
 - [Git](#docs/git)
 - [Github](#docs/github)
 - [Chrome](#docs/chrome)
+- [读书列表](#docs/booklist)
 - [参考资料](#docs/reference)
 - [FAQ](#docs/faq)
 

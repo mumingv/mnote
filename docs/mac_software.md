@@ -66,6 +66,7 @@ brew uninstall xxx // 卸载软件
 brew search // 查找能够安装的软件
 brew list // 查看已安装的软件
 brew update  // 升级brew自身
+brew outdated  // 查看可以升级的软件
 brew upgrade xxx  // 升级软件 
 brew options xxx  // 查看安装选项
 brew unlink xxx  // 删除命令快捷方式（多版本时切换版本使用）
