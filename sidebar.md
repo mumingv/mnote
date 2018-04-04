@@ -9,9 +9,15 @@
 - [Git](#docs/git)
 - [Github](#docs/github)
 - [Chrome](#docs/chrome)
-- [读书列表](#docs/booklist)
 - [参考资料](#docs/reference)
 - [FAQ](#docs/faq)
+
+
+## 阅读列表
+- [读书列表](#docs/read/booklist)
+- [读书分类](#docs/read/bookcategory)
+- [论文列表](#docs/read/paperlist)
+
 
 ## Linux软件
 
