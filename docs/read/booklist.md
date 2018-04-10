@@ -9,10 +9,11 @@
 
 |编号	|名称					|作者	|页数	|完成日期		|备注				|
 |-------|-----------------------|-------|-------|-----------|-------------------|
-|1 		|《Spark快速大数据分析》	|Holden Karau|210    |2018-01-01 |[查看](https://item.jd.com/11782888.html)|
-|2 		|《Spark大数据分析实战》	|高彦杰	|213    |2018-01-01 |[查看](https://item.jd.com/11860186.html)|
-|3 		|《企业大数据处理 Spark、Druid、Flume与Kafafa应用实战》	|肖冠宇	|208    |2018-01-01 |[查看](https://item.jd.com/12189211.html)|
-|4 		|《UML建模图解教程》		|周力	|250    | |[查看](https://item.jd.com/22725809821.html)|
+|1 		|《Spark快速大数据分析》|Holden Karau|210|2018-01-01|[查看](https://item.jd.com/11782888.html)|
+|2 		|《Spark大数据分析实战》|高彦杰|213|2018-01-01|[查看](https://item.jd.com/11860186.html)|
+|3 		|《企业大数据处理 Spark、Druid、Flume与Kafafa应用实战》|肖冠宇	|208|2018-01-01|[查看](https://item.jd.com/12189211.html)|
+|4 		|《UML建模图解教程》|周力|250|2018-04-10|[查看](https://item.jd.com/22725809821.html)|
+|5 		|《精通Nginx》（第一版）|Dimitri Aivaliotis|259||[查看](https://item.jd.com/11657084.html)|
 
 
 ## 2017

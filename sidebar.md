@@ -36,14 +36,6 @@
 - [常用软件](#docs/windows_software)
 
 
-## Nginx
-- [基本用法](#docs/nginx_basic_usage)
-- [配置示例](#docs/nginx_demo)
-- [参考资料](#docs/nginx_reference)
-- [环境FAQ](#docs/nginx_enviroment_faq)
-- [功能FAQ](#docs/nginx_faq)
-
-
 ## MongoDB
 - [基本用法](#docs/mongodb_basic_usage)
 - [参考资料](#docs/mongodb_reference)
