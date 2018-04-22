@@ -24,9 +24,10 @@
 
 
 ## Linux软件
-
+- [Linux开发环境](#docs/linux_dev_enviroment)
 
 ## Mac软件
+- [Mac开发环境](#docs/mac_dev_enviroment)
 - [常用软件](#docs/mac_software)
 - [专题笔记](#docs/mac_topic)
 - [FAQ](#docs/mac_faq)
