@@ -14,13 +14,13 @@
 
 
 ## 阅读列表
-- [读书列表](#docs/read/booklist)
-- [读书分类](#docs/read/bookcategory)
-- [论文列表](#docs/read/paperlist)
+- [读书列表](#docs/booklist/booklist)
+- [读书分类](#docs/booklist/bookcategory)
+- [论文列表](#docs/booklist/paperlist)
 
 
 ## 读书笔记
-- [《UML建模图解教程》](#docs/book/book_uml_pic)
+- [《UML建模图解教程》](#docs/booknote/book_uml_pic)
 
 
 ## Linux软件
