@@ -203,6 +203,11 @@ mysqladmin -uroot -p123 password '456'
 ```
 
 
+## 配置示例
+
+
+
+
 ## 参考资料
 
 [Mac下用brew搭建LNMP和LAMP开发环境](http://yansu.org/2013/12/11/lamp-in-mac.html)
