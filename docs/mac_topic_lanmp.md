@@ -43,7 +43,13 @@ $ lsof -Pni4 | grep nginx
 
 ## PHP
 
-### 安装php软件源
+【重要说明】PHP的安装来源包从Homebrew/php切换成了Hombrew/core；另外，PHP切换版本的命令修改成了brew-php-switcher。参考资料：
+- [1.升级Homebrew](https://getgrav.org/blog/macos-sierra-apache-upgrade-homebrew)
+- [2.安装多版本PHP](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions)
+- [3.安装brew-php-switcher](https://cyto.top/2018/08/09/installation-mac-php-switcher)
+
+
+### 安装php软件源(obselete)
 
 默认情况下，使用 `home search php` 命令是查不到php安装包的，需要先安装brew源才能查到各个php版本。
 
@@ -74,7 +80,7 @@ brew unlink php72
 ```
 
 
-### 多版本切换
+### 多版本切换(obselete)
 
 安装php-version版本管理工具
 
