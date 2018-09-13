@@ -34,6 +34,7 @@
 |Charles	|抓包工具		|
 |Fiddler	|抓包工具		|
 |Whistle	|抓包工具		|
+|Postman	|请求工具		|
 
 
 ### 其他
@@ -191,6 +192,10 @@ $ mongod --dbpath=/usr/local/Cellar/mongodb/data/db --rest
 
 在页面中输入`http://localhost:28017`查看MongoDB状态。
 
+
+## Postman
+
+用户名：jay_yin@yeah.net，密码：H...
 
 ## ProcessOn
 
