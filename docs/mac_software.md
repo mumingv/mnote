@@ -8,12 +8,13 @@
 
 |名称		|说明		|
 |-----------|-----------|
-|Sketch		|原型设计|
-|MindManager|思维导图|
-|iThoughtsX |思维导图|
-|EdrawMax	|流程图	 |
-|processon  |流程图  |
-|Axure RP	|原型设计|
+|Sketch		|原型设计   |
+|XMind      |思维导图   |
+|MindManager|思维导图   |
+|iThoughtsX |思维导图   |
+|EdrawMax	|流程图	    |
+|processon  |流程图     |
+|Axure RP	|原型设计   |
 
 
 ### 开发
