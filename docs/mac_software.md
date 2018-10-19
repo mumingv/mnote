@@ -135,6 +135,29 @@ sudo apachectl restart
 ```
 
 
+## Beyond Compare
+
+### 安装
+
+下载：http://www.scootersoftware.com/download.php
+
+免注册方法：
+
+```
+$ cd cd /Applications/Beyond\ Compare.app/Contents/MacOS/
+$ mv BCompare BCompare.real
+$ touch BCompare  // 创建并编辑文本文件
+$ chmod a+x BCompare
+```
+
+```
+$ cat BCompare
+#!/bin/bash
+rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
+"`dirname "$0"`"/BCompare.real &
+```
+
+
 ## Charles
 
 ### 安装
